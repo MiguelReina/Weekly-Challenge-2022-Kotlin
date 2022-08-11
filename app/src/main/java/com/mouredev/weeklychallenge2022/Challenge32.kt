@@ -14,3 +14,9 @@ package com.mouredev.weeklychallenge2022
  * - Tienes toda la información sobre los retos semanales en https://retosdeprogramacion.com/semanales2022.
  *
  */
+void main() {
+  var list = [5,8,2,1,6,9,18,15,20]; 
+  list.sort();
+  var result = list[list.length - 2];
+  print(result);
+}
